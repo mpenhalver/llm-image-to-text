@@ -44,6 +44,8 @@ Os usuários do Amazon Bedrock precisam solicitar acesso aos modelos antes que e
 ## Como funciona
 
 Consulte o diagrama de arquitetura abaixo:
+
+
 ![End to End Architecture](images/architecture.png)
 
 * O usuário carrega um arquivo de imagem no bucket de input do Amazon S3.
