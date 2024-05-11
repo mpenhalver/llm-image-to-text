@@ -57,9 +57,9 @@ Consulte o diagrama de arquitetura abaixo:
 ## Testando
 
 
-1. Na linha de comando, execute o comando abaixo para carregar o arquivo `image1.jpeg` no bucket do Amazon S3. Substitua `MyInputBucketName` da saída `sam deploy` e também sua região.
+1. Na linha de comando, execute o comando abaixo para carregar o arquivo `image1.png` no bucket do Amazon S3. Substitua `MyInputBucketName` da saída `sam deploy` e também sua região.
    ```bash
-   aws s3 cp image1.jpeg s3://{MyInputBucketName}/image1.jpeg --region {sua-regiao}
+   aws s3 cp image1.png s3://{MyInputBucketName}/image1.png --region {sua-regiao}
    ```
 
 2. Faça login no [Console do Amazon S3](https://s3.console.aws.amazon.com/s3/buckets), em alguns segundos, você deve ver um arquivo `claude_output.txt` carregado no bucket S3 `MyOutputBucketName`. Baixe o arquivo do bucket usando o comando abaixo e valide o conteúdo.
